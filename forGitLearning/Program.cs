@@ -2,3 +2,4 @@
 
 Request request = new Request();
 request.PrintInfoRequest();
+Console.WriteLine("master");
