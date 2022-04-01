@@ -1,0 +1,48 @@
+[33mtag v1.2[m
+Tagger: alftunner <alftunner@gmail.com>
+Date:   Thu Mar 24 20:54:47 2022 +0300
+
+Only for learning
+
+[33mcommit c5183be330a1238c5c4b1c8440ad4bf7041d2187[m[33m ([m[1;33mtag: v1.2[m[33m)[m
+Author: alftunner <alftunner@gmail.com>
+Date:   Thu Mar 24 20:50:23 2022 +0300
+
+    this is my second commit
+
+[1mdiff --git a/forGitLearning/Program.cs b/forGitLearning/Program.cs[m
+[1mindex 86dc6cc..a3f1f25 100644[m
+[1m--- a/forGitLearning/Program.cs[m
+[1m+++ b/forGitLearning/Program.cs[m
+[36m@@ -1,4 +1,27 @@[m
+[31m-﻿using forGitLearning;[m
+[32m+[m[32m﻿/*using forGitLearning;[m
+ [m
+ Request request = new Request();[m
+[31m-request.PrintInfoRequest();[m
+\ No newline at end of file[m
+[32m+[m[32mrequest.PrintInfoRequest();*/[m
+[32m+[m
+[32m+[m[32mvoid Change(out int i, ref int[] arr)[m
+[32m+[m[32m{[m
+[32m+[m[32m    i = 20;[m
+[32m+[m[32m    Console.WriteLine("Значения до переопределения:");[m
+[32m+[m[32m    Console.WriteLine("i = " + i + " arr[0] = " + arr[0]);[m
+[32m+[m
+[32m+[m[41m    [m
+[32m+[m[32m    arr[0] = 20;[m
+[32m+[m[41m    [m
+[32m+[m[32m    Console.WriteLine("Значения после переопределения:");[m
+[32m+[m[32m    Console.WriteLine("i = " + i + " arr[0] = " + arr[0]);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mint i ;[m
+[32m+[m[32mint[] arr = {10, 20, 30};[m
+[32m+[m[32mConsole.WriteLine("Начальное состояние:");[m
+[32m+[m[32mConsole.WriteLine("i = " + i + " arr[0] = " + arr[0]);[m
+[32m+[m
+[32m+[m[32mChange(out i, ref arr);[m
+[32m+[m
+[32m+[m[32mConsole.WriteLine("FINAL:");[m
+[32m+[m[32mConsole.WriteLine("i = " + i + " arr[0] = " + arr[0]);[m
+\ No newline at end of file[m
